@@ -1,12 +1,33 @@
-# stats220
+# STATS 220 
+> "Hi and welcome to my repo, marker :)
+```python
+def greet(reader):
+ print(f"Hello, {reader}!")
 
-This is my repo for STATS 220. 
+greet("Marker")
+```
 
-A little about me:
+## More about me 
+First of all I am taking Bachelor of Science majoring in **Computer Science** *as shown from my little code intro*, but I am 
+also majoring in **Statistics**. This is my seocnd year at this degree and my third year at the University of Auckland, 
+I am actually originally from Christhcurch "moving to the *big city*".
 
-- I am undertaking a degree in Computer Science
-- I am taking STATS 220 because I want to understand data handling
-- I am interested in learning about computer processes of data
+Ultimatley I don't actually like stats, I think its a bit boring and something kjust beneficial i should know, when I first joined STATS 220 I was just expecting it to be just another stats course... But when I flund out this course to be a lot more computational and programming my mood to this course swithced up entirely - I have a diagram/table inserted bellow that describes my switch up 
+
+### Diagram to show 
+| Before | After |
+|----------|----------|
+|<img src="https://media.tenor.com/JQZPRf0YTicAAAAe/emoji-in-distress-emoji-sad.png" width="400"> | <img src="https://media.tenor.com/owsPz6f26FcAAAAM/happy-cat-silly-cat.gif" width="300"> |
+
+### Some Extra facts 
+* I ride a motorcyle - I use this to commute to and from uni because of the absolutely horrific traffic in Auckland
+* You'll find me at the gym **A LOT**
+* I also **love** cats
+
+### Goals for STATS220 
+1. Ensure I do well in this ensure
+2. Ensure Plan 1 goes to success
+3. Look at Plan 2
 
 A meme that captures how I currently feel about my university studies is![](https://media.tenor.com/JQZPRf0YTicAAAAe/emoji-in-distress-emoji-sad.png)
 
