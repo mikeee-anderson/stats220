@@ -12,7 +12,7 @@ First of all I am taking Bachelor of Science majoring in **Computer Science** *a
 also majoring in **Statistics**. This is my seocnd year at this degree and my third year at the University of Auckland, 
 I am actually originally from Christhcurch "moving to the *big city*".
 
-Ultimatley I don't actually like stats, I think its a bit boring and something kjust beneficial i should know, when I first joined STATS 220 I was just expecting it to be just another stats course... But when I flund out this course to be a lot more computational and programming my mood to this course swithced up entirely - I have a diagram/table inserted bellow that describes my switch up 
+Ultimatley I don't actually like stats, I think its a bit boring and something just beneficial i should know, when I first joined STATS 220 I was just expecting it to be just another stats course... But when I flund out this course to be a lot more computational and programming my mood to this course switched up entirely - I have a diagram/table inserted bellow that describes my switch up 
 
 ### Diagram to show 
 | Before | After |
