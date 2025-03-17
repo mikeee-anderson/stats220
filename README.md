@@ -18,7 +18,7 @@ Ultimatley I don't actually like stats, I think its a bit boring and something j
 | Before | After |
 |----------|----------|
 |<img src="https://media.tenor.com/JQZPRf0YTicAAAAe/emoji-in-distress-emoji-sad.png" width="400"> | <img src="https://media.tenor.com/owsPz6f26FcAAAAM/happy-cat-silly-cat.gif" width="300"> |
-
+> Here I used some HTML to fit images better in the table :)
 ### Some Extra facts 
 * I ride a motorcyle - I use this to commute to and from uni because of the absolutely horrific traffic in Auckland
 * You'll find me at the gym **A LOT**
