@@ -9,15 +9,42 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
 ```{css}
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
 
 ```
 
-## Motorcycle Riding Tracking and Observations
+# Motorcycle Riding Tracking and Observations
 
-In this report we have tracked a plethora of different factors and observations
-during a motorcycle ride
+------------------------------------------------------------------------
 
-### Conclusive Summaries 
+## Investigation Details
+
+### Motive
+
+This study is centered around how certain prescribed factors may affect rider enjoyment. Ultimately the goal of this investigation is to determine which factors impact rider satisfaction negatively or positively. This study also bought light to what typical rides may expect.
+
+### Process
+
+In order to carry out this investigation we employed a [**Google form**](https://docs.google.com/forms/d/e/1FAIpQLSfXbC7m4y54QxNlA-5B4XTdy_-YjvAAx-8fvEOeOYOISlmv0g/viewform?usp=sharing) to track and collate the data. In this form it was composed of multiple questions of different pre-assigned categories for each question to capture data.
+
+The main areas we wanted to explore are listed bellow:
+
+-   Weather Conditions
+-   Traffic flow
+-   Road Conditions
+-   Other commuters
+
+We assumed these variables to have a significant effect on what impacts rider satisfaction. To collect the data after every ride the rider would complete the form every time. As we understood there may be subjectivity in relying on memory for the collection of data, instead we designed every question to be referenced from online readily available sources. What does this mean? This means that if data was missed it can be re-logged accurately from cross-referencing sources online. **For Example**: One of our questions queries the rider on the amount of traffic lights they had come across during the trip. If a trip was difficult to be recalled, the amount of traffic lights can be backtracked by looking on Google Maps. This also applied to the question based on the weather variable - data on met service for that day can be used to input an entry for the weather variable. Finally after the data is collected, the observations were transferred into a CSV document via Google Sheets.
+
+### Conclusive Summaries
+
 ```{r}
 # Install and load required packages
 library(tidyverse)
@@ -42,11 +69,13 @@ mean_lights <- mean(latest_data$Traffic_Light_Count)
 max_lights <- max(latest_data$Traffic_Light_Count)
 median_satisfaction <- median(latest_data$Satisfaction)
 ```
-* The average number of traffic lights encountered is `r mean_lights`.
-* The maximum number of traffic lights encountered is `r max_lights`.
-* The median ride satisfaction score is `r median_satisfaction`.
+
+-   The average number of traffic lights encountered is `r mean_lights`.
+-   The maximum number of traffic lights encountered is `r max_lights`.
+-   The median ride satisfaction score is `r median_satisfaction`.
 
 ### Occurence of Traffic Lights during the Ride
+
 ```{r}
 ggplot(data = latest_data) +
   geom_bar(aes(x = Traffic_Light_Count), fill = "#CB1517") +   # Ducati Red 
@@ -56,6 +85,7 @@ ggplot(data = latest_data) +
 ```
 
 ### Hazards on the Road vs Ride Satisfaction
+
 ```{r}
 # Separate hazard categories
 latest_data_longer <- latest_data %>% 
